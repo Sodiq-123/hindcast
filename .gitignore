@@ -1,0 +1,23 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Personal data: database dumps and server logs
+backups/
+*.dump
+*.log
+
+# Build output and dependencies
+backend/bin/
+backend/data/
+frontend/node_modules/
+frontend/dist/
+
+# Demo recordings and scripts (kept locally only)
+demo/
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
